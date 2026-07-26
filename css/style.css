@@ -88,44 +88,32 @@ p {
   font-family: 'Montserrat', sans-serif;
 }
 
-@media only screen and (max-width: 1000px) {
-  h1 {
-    font-size: 15px;
+.tagline {
+  font-size: 18px;
+  letter-spacing: 0.05em;
+  color: rgb(80, 80, 80);
+  margin: 10px 0 20px 0;
+}
+
+.header-icons a {
+  display: inline-block;
+  margin: 0 8px;
+}
+
+@media only screen and (max-width: 768px) {
+  h2 {
+    font-size: 36px;
   }
 }
 
-@media only screen and (max-width: 100px) {
-  h1 {
-    font-size: 15px;
-  }
-  h1::after {
-    height: 8px;
-  }
-}
-
-@media only screen and (max-width: 100px) {
+@media only screen and (max-width: 480px) {
   #intro {
-    padding: 0 10px;
+    padding: 0 15px;
   }
-  h1 {
+  h2 {
+    font-size: 26px;
+  }
+  .tagline {
     font-size: 15px;
-  }
-  h1::after {
-    height: 6px;
-  }
-  p {
-    font-size: 18px;
-  }
-  .btn {
-    font-size: 16px;
-  }
-}
-
-@media only screen and (max-width: 100px) {
-  h1 {
-    font-size: 15px;
-  }
-  h1::after {
-    height: 4px;
   }
 }
